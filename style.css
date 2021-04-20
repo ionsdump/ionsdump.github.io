@@ -2,22 +2,50 @@ body {
     background-image: url("https://www.daysoftheyear.com/wp-content/uploads/look-up-at-the-sky-day-1.jpg");
 }
 
-@keyframes example {    
-    0% {top: -50px; opacity: 0%;}
-    100% {top: 0px; opacity: 100%;}
+@keyframes ani {    
+    0% {top: -100px; opacity: 0%;}
+    100% {top: -0px; opacity: 100%;}
+
+}
+
+@keyframes foot {
+    0% {top: -100px; opacity:0%;}
+    25% {top: -100px; opacity:0%;}
+    100% {top: -0px; opacity:100%;}
 }
 .container {
     
     margin: 13%;
     padding: 100px;
-    border: antiquewhite 10px;
     font-family: monospace;
     background-color: white;    
-    color: black;
-    animation-name: example;
-    position: relative;
+    color: #005ba5;
+    animation-name: ani;
     animation-duration: 2s;
+    position: relative;
+}
+a {
+    color: #005ba5;
+}
 
+.footer {
+    opacity: 1;
+   position: relative ;
+    margin-top: -24px;
+    padding: 10px;
+    background-color: white;
+    font-family: monospace;
+    animation-name: foot;
+    animation-duration: 2s;
+    
+}
+
+.about {
+    padding: 5px;
+}
+
+.contacts {
+    padding: 5px;
 }
 
 
