@@ -1,8 +1,9 @@
 body {
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7674aee8-a93d-4e4a-8a60-456b3770bbba/da7tw4n-91fac627-e278-4b80-bd71-16f691f5c5c7.jpg/v1/fill/w_1280,h_854,q_75,strp/vibrant_sunset_clouds_by_boldfrontiers_da7tw4n-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD04NTQiLCJwYXRoIjoiXC9mXC83Njc0YWVlOC1hOTNkLTRlNGEtOGE2MC00NTZiMzc3MGJiYmFcL2RhN3R3NG4tOTFmYWM2MjctZTI3OC00YjgwLWJkNzEtMTZmNjkxZjVjNWM3LmpwZyIsIndpZHRoIjoiPD0xMjgwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.VaFzkYPZ9hMmaLG5NIzujhLmqpYe22QupBDL_n59Hqc);
+    background-image: url("clouds.jpg");
     font-family: monospace;
     background-size: cover;
     overflow: hidden;
+
 }
 
 @keyframes discord {
@@ -22,18 +23,23 @@ body {
     100% {right: 0px; opacity: 1;}
 }
 
-.header {
+.footer {
     background-color: rgb(255,255,255);
-    color: #346d8b;
-    width: 250px;
+    color: #1a73e8;
+    width: 100%;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    display: inline-block;
 }
 
 h2 {
-    padding: 8px;
+    padding: 0px 30px;
 }
 
 .main {
-    position: absolute;
+    margin-top: 8px;
+    position: fixed;
     left: 0;
     width: 90%;
     
@@ -55,7 +61,7 @@ h2 {
 
 .discord {
     animation-name: discord;
-    animation-duration: 1s;
+    animation-duration: 2s;
 }
 
 
@@ -70,7 +76,7 @@ h2 {
     text-align: right;
     position: relative;
     animation-name: email;
-    animation-duration: 1.5s;
+    animation-duration: 2.5s;
 }
 
 
@@ -87,5 +93,5 @@ h2 {
     text-align: right;
     position: relative;
     animation-name: number;
-    animation-duration: 2s;
+    animation-duration: 3s;
 }
