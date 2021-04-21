@@ -28,6 +28,7 @@ body {
     animation-duration: 2s;
     position: relative;
     min-height: 10.5vh;
+    border-radius: 10px;
 }
 a {
     color: #005ba5;
@@ -37,7 +38,7 @@ a {
     position: fixed ;
     left: 0 ;
     bottom: 0;
-    width: 100%;
+    width: 99%;
     padding: 10px;
     background-color: white;
     font-family: monospace;

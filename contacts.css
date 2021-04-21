@@ -1,0 +1,61 @@
+body {
+    background-color:rgb(51, 51, 51);
+    color: white;
+    font-family: monospace;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.header {
+    background-color: rgb(51, 51, 51);
+    color: #ffffff;
+    padding: 0px;
+    margin: 10px;
+}
+
+h2 {
+    padding: 10px;
+}
+
+.main {
+    position: absolute;
+    left: 0;
+    width: 90%;
+    
+}
+
+.discord {
+    background-color: #7289DA;
+    padding: 30px;                                                                                      
+    width: 100%;
+    border-top-right-radius: 10px;
+    margin: 0px;
+    
+}
+
+.disctext{
+    text-align: right;
+}
+
+.disclogo {
+
+    
+}
+
+.email {
+    background-color: red;
+    padding: 30px;
+    width: 100%;
+    
+    margin: px;
+     text-align: right; 
+}
+
+.number {
+    background-color: #0DACF4;
+    padding: 30px;
+    width: 100%;
+    border-bottom-right-radius: 10px;
+    margin: 0px;
+     text-align: right; 
+}
