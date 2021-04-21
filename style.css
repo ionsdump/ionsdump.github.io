@@ -1,6 +1,9 @@
 body {
     background-image: url("https://www.daysoftheyear.com/wp-content/uploads/look-up-at-the-sky-day-1.jpg");
     overflow: hidden;
+    background-repeat: no-repeat;
+    
+    
 }
 
 @keyframes ani {    
@@ -10,13 +13,13 @@ body {
 }
 
 @keyframes foot {
-    0% {top: -100px; opacity:0%;}
-    25% {top: -100px; opacity:0%;}
-    100% {top: -0px; opacity:100%;}
+    0% {top: 130%; opacity:0%;}
+    25% {top: 130%; opacity:0%;}
+    100% {top: 94%; opacity:100%;}
 }
 .container {
     
-    margin: 13%;
+    margin: 9%;
     padding: 100px;
     font-family: monospace;
     background-color: white;    
@@ -24,21 +27,22 @@ body {
     animation-name: ani;
     animation-duration: 2s;
     position: relative;
+    min-height: 10.5vh;
 }
 a {
     color: #005ba5;
 }
 
 .footer {
-    opacity: 1;
-   position: relative ;
-    margin-top: -90px;
+    position: fixed ;
+    left: 0 ;
+    bottom: 0;
+    width: 100%;
     padding: 10px;
     background-color: white;
     font-family: monospace;
     animation-name: foot;
     animation-duration: 2s;
-    
 }
 
 .about {
