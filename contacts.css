@@ -34,11 +34,11 @@ body {
 }
 
 h2 {
-    padding: 0px 30px;
+    margin: 25px;
+    color: #022780;
 }
 
 .main {
-    margin-top: 30px;
     position: fixed;
     left: 0;
     width: 90%;
@@ -48,8 +48,8 @@ h2 {
 
 
 .discord {
-    color: white;
-    background-color: #7289DA;
+    color: #7289DA;
+    background-color: white;
     padding: 30px;                                                                                      
     width: 100%;
     border-top-right-radius: 10px;
@@ -75,6 +75,7 @@ h2 {
     justify-content: space-between;
     text-align: right;
     position: relative;
+    align-items: center;
     animation-name: email;
     animation-duration: 2.5s;
 }
@@ -83,8 +84,8 @@ h2 {
 
 
 .number {
-    color: white;
-    background-color: #25D366;
+    color: #25D366;
+    background-color: white;
     padding: 30px;
     width: 100%;
     border-bottom-right-radius: 10px;
