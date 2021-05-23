@@ -1,5 +1,5 @@
 body {
-    background-image: url(lookatthesky.webp);
+    background-image: url(soug\ wagif.JPG);
     overflow: hidden;
     background-repeat: no-repeat;
     
@@ -23,7 +23,7 @@ body {
     padding: 100px;
     font-family: monospace;
     background-color: white;    
-    color: #005ba5;
+    color: #9B843E;
     animation-name: ani;
     animation-duration: 2s;
     position: relative;
@@ -31,7 +31,7 @@ body {
     border-radius: 10px;
 }
 a {
-    color: #005ba5;
+    color: #9B843E;
 }
 
 .footer {
