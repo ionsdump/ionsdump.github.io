@@ -1,7 +1,7 @@
 body {
     background-image: url(soug\ wagif.JPG);
     overflow: hidden;
-    background-repeat: no-repeat;
+    background-size: cover;
     
     
 }
@@ -15,7 +15,7 @@ body {
 @keyframes foot {
     0% {top: 130%; opacity:0%;}
     25% {top: 130%; opacity:0%;}
-    100% {top: 94%; opacity:100%;}
+    100% {top: 92.5vh; opacity:100%;}
 }
 .container {
     
@@ -35,6 +35,8 @@ a {
 }
 
 .footer {
+    display: flex;
+    align-items: center;
     position: fixed ;
     left: 0 ;
     bottom: 0;
