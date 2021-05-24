@@ -2,8 +2,8 @@
 body {
     font-family: monospace;
     left: 50%;
-    background: rgb(237, 113, 124);
-    background: linear-gradient(90deg, rgba(237, 113, 124, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    /* background: rgb(237, 113, 124);
+    background: linear-gradient(90deg, rgba(237, 113, 124, 1) 0%, rgba(148, 187, 233, 1) 100%); */
     background-image: url(goodfaith.png);
     background-size: cover;
     background-attachment: fixed;
