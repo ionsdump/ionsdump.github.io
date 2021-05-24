@@ -1,0 +1,61 @@
+
+body {
+    font-family: monospace;
+    left: 50%;
+    background: rgb(237, 113, 124);
+    background: linear-gradient(90deg, rgba(237, 113, 124, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    background-size: cover;
+}
+
+a {
+    color: black;
+}
+
+
+.header {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.header h1 {
+    padding: 0px 50px;
+}
+
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    border: gray solid 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 6px;
+    background-color: white;
+    margin: 15em;
+    padding: 35px;
+    width: 100%;
+}   
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    border: lightgray solid 1px;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 5px;
+}
+
+.blog img {
+    border-radius: 5px;
+    border: lightgray solid 1px;
+}
+
+.blog:hover {
+    background-color: rgb(245, 245, 245);
+}
