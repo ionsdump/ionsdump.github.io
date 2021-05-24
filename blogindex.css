@@ -4,20 +4,34 @@ body {
     left: 50%;
     background: rgb(237, 113, 124);
     background: linear-gradient(90deg, rgba(237, 113, 124, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    background-image: url(goodfaith.png);
     background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
 }
 
-a {
-    color: black;
+a, u {
+    text-decoration: none;
 }
 
 
 .header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
     position: absolute;
     background-color: white;
     width: 100%;
     top: 0;
     left: 0;
+}
+
+.header a {
+    font-size: 17px;
+    color: black;
+    position: absolute;
+    right: 5%;
+    top: 35%;
 }
 
 .header h1 {
@@ -37,7 +51,7 @@ a {
     justify-content: space-evenly;
     border-radius: 6px;
     background-color: white;
-    margin: 15em;
+    margin: 10em;
     padding: 35px;
     width: 100%;
 }   
@@ -45,10 +59,12 @@ a {
 .blog {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     border: lightgray solid 1px;
     border-radius: 5px;
-    padding: 15px;
+    padding: 0px 15px;
     margin: 5px;
+    max-width: 234;
 }
 
 .blog img {
@@ -56,6 +72,32 @@ a {
     border: lightgray solid 1px;
 }
 
+.blog p {
+    padding: 10px;
+    color: gray;
+}
+
+.blog h2, h3, h4, h5, h6 {
+    padding: 10px;
+    /* background-color: #2c2c2c;
+    border-radius: 5px; */
+    color: black;
+}
+
 .blog:hover {
     background-color: rgb(245, 245, 245);
+}
+
+
+.footer {
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: gray;
+}
+
+.footer p {
+    padding: 15px 15px;
+    margin: 0px;
 }
