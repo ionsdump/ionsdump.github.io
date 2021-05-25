@@ -1,0 +1,85 @@
+body{
+font-family: monospace;
+left: 50%;
+background-image: url(images/soug\ wagif.JPG);
+background-size: cover;
+background-attachment: fixed;
+display: flex;
+flex-direction:  column;
+justify-content: space-between;
+margin: 0;
+}
+
+a{
+color: black;
+}
+
+img{
+border-radius: 5px;
+border: lightgray solid 1px;
+width: 75%;
+margin: 5px 0px;
+}
+
+.header{
+position: absolute;
+background-color: white;
+width: 100%;
+top: 0;
+left: 0;
+}
+
+.header h1{
+padding: 0px 50px;
+}
+
+.header a{
+font-size: 17px;
+color: black;
+position: absolute;
+right: 5%;
+top: 35%;
+}
+
+
+.main{
+display: flex;
+border: lightgray solid 1px;
+display: flex;
+flex-wrap: wrap;
+border-radius: 6px;
+background-color: white;
+margin: 10em;
+padding: 35px;
+}
+
+.main div{
+border-bottom: lightgray solid 1px;
+}
+
+.articleName{
+border-bottom:lightgray solid 1px;
+width:100%;
+}
+
+.articleNameh1{
+border-bottom: lightgray solid 1px;
+width:100%;
+}
+
+.paragraph{
+padding:35px 0px;
+font-size:16px;
+}
+
+.footer{
+background-color:white;
+bottom:0;
+left:0;
+width:100%;
+color:gray;
+}
+
+.footer p{
+padding:5px 15px;
+}
