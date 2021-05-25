@@ -1,6 +1,5 @@
 body{
 font-family: monospace;
-left: 50%;
 background-image: url(images/soug\ wagif.JPG);
 background-size: cover;
 background-attachment: fixed;
@@ -49,8 +48,8 @@ display: flex;
 flex-wrap: wrap;
 border-radius: 6px;
 background-color: white;
-margin: 10em;
-padding: 35px;
+margin: 10em 7em;
+padding: 10px 35px 35px 35px;
 }
 
 .main div{
