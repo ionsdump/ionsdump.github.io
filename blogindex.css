@@ -1,3 +1,8 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
 
 body {
     font-family: monospace;
@@ -8,6 +13,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
+    height: 100%;
 }
 
 a, u {
@@ -91,10 +97,12 @@ a, u {
 
 .footer {
     background-color: white;
+    position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     color: gray;
+    margin: 0;
 }
 
 .footer p {
