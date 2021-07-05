@@ -1,9 +1,15 @@
+html {
+    height: 85%;
+}
+
 body {
     background-image: url(soug\ wagif.JPG);
-    overflow: hidden;
     background-size: cover;
-    
-    
+    overflow: hidden;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 
 @keyframes ani {    
@@ -18,17 +24,17 @@ body {
     100% {top: 92.5vh; opacity:100%;}
 }
 .container {
-    
-    margin: 9%;
+    position: relative;
+    display: flex;
+    align-items: center;
     padding: 100px;
     font-family: monospace;
     background-color: white;    
     color: #9B843E;
     animation-name: ani;
     animation-duration: 2s;
-    position: relative;
-    min-height: 10.5vh;
     border-radius: 10px;
+    min-width: 50%;
 }
 a {
     color: #9B843E;
