@@ -9,7 +9,7 @@ body {
     left: 50%;
     /* background: rgb(237, 113, 124);
     background: linear-gradient(90deg, rgba(237, 113, 124, 1) 0%, rgba(148, 187, 233, 1) 100%); */
-    background-image: url(goodfaith.png);
+    background-image: url(./img/goodfaith.png);
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
@@ -70,7 +70,9 @@ a, u {
     border-radius: 5px;
     padding: 0px 15px;
     margin: 5px;
-    max-width: 234;
+    max-width: 200px;
+    max-height: 300px;
+    min-height: 300px;
 }
 
 .blog img {
@@ -97,7 +99,7 @@ a, u {
 
 .footer {
     background-color: white;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
